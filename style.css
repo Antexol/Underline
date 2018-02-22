@@ -1,0 +1,33 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: grey;
+	height: 100%;
+}
+
+.main
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.line
+{
+	font-size: 100px;
+	display: inline;
+  background-image: linear-gradient(180deg,transparent 92%,#3274ff 0);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition: background-size 2s ease;	
+}
+
+.line:hover 
+{
+	background-size: 100% 100%;
+}
